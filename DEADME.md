@@ -9,3 +9,4 @@ Cette application interroge l'API publique JokesAPI pour afficher une blague.
    git clone <URL_DU_DEPOT>
    cd ue19-lab-05
 test du workflow Github actions
+test
