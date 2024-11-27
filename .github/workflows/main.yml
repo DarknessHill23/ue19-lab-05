@@ -20,6 +20,7 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
+
     - name: Build Docker image
       run: |
        docker build -t ghcr.io/darknesshill23/ue19-lab-05/jokes-app:latest .
