@@ -27,7 +27,7 @@ jobs:
     - name: Scan Docker image for vulnerabilities
       uses: aquasecurity/trivy-action@master
       with:
-        image-ref: ghcr.io/${{ github.repository }}/jokes-app:latest
+        image-ref: ghcr.io/darknesshill23/ue19-lab-05/jokes-app:latest
 
 
     - name: Push Docker image
